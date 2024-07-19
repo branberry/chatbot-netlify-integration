@@ -5,6 +5,7 @@ import { readdir, readFile } from "fs";
 import { promisify } from "util";
 import { Page, updatePages } from "./update-pages";
 
+updatePages
 const readdirAsync = promisify(readdir);
 const readFileAsync = promisify(readFile);
 

@@ -7,3 +7,4 @@ config:
       - read
       - write
   integrationLevel: site
+  use_cjs_shims: true
